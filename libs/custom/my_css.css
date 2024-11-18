@@ -4,7 +4,7 @@ h4 {
   max-width: 900px; }
 .header {
   margin-top: 60px;
-  margin-bottom: 60px; 
+  margin-bottom: 40px; 
   text-align: left; }
 .main-description h1 {
   margin-bottom: 0px; }
@@ -33,11 +33,11 @@ h4 {
 .section-header {
   text-transform: uppercase;
   font-size: 1.5rem;
-  letter-spacing: .2rem;
+  letter-spacing: .15rem;
   font-weight: 600; }
 .docs-section {
   border-top: 1px solid #eee;
-  padding: 4rem 0;
+  padding: 3rem 0;
   margin-bottom: 0;}
 .footer {
   text-align: center;
