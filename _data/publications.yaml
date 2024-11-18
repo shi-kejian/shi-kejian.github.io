@@ -7,7 +7,7 @@ papers:
     hf: https://huggingface.co/collections/allenai/sciriff-665f61ba7315e1d202e5f6bf     
     selected: y
 
-  - title: "<img src='images/reife_fig1.jpg' style='width: 90px; height: 50px; margin-right: -1px;'> ReIFE: Re-evaluating Instruction-Following Evaluation"
+  - title: "<img src='images/reife_fig1.jpg' style='width: 100px; height: 47px; margin-right: -1px;'> ReIFE: Re-evaluating Instruction-Following Evaluation"
     authors: "Yixin Liu*, <b>Kejian Shi*</b>, Alexander R. Fabbri, Yilun Zhao, Peifeng Wang, Chien-Sheng Wu, Shafiq Joty, Arman Cohan"
     venue: "IN SUBMISSION"
     paper_pdf: https://arxiv.org/abs/2410.07069
