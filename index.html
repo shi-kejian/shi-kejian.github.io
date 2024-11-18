@@ -64,6 +64,9 @@ title: Home
             {% if paper.code %}
               <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
             {% endif %}
+            {% if paper.hf %}
+              <a class="button" href="{{ paper.hf }}" target="_blank">HF</a>
+            {% endif %}
           </p>
           <p>{{ paper.authors }}</p>
           <p><i>{{ paper.venue }}</i></p>
@@ -104,6 +107,9 @@ title: Home
             {% endif %}
             {% if paper.code %}
               <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+            {% endif %}
+            {% if paper.hf %}
+              <a class="button" href="{{ paper.hf }}" target="_blank">HF</a>
             {% endif %}
           </p>
           <p>{{ paper.authors }}</p>
