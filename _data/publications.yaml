@@ -4,15 +4,15 @@ papers:
     venue: "Neurips 2024 Workshop FM4Science (In Re-submission)"
     paper_pdf: https://arxiv.org/abs/2410.07069
     code: https://github.com/allenai/sciriff
-    extra_venue: "HuggingFace: https://huggingface.co/collections/allenai/sciriff-665f61ba7315e1d202e5f6bf"
+    HF: https://huggingface.co/collections/allenai/sciriff-665f61ba7315e1d202e5f6bf"
     selected: y
 
   - title: "<img src='images/reife_fig1.jpg' style='width: 90px; height: 35px; margin-right: -1px;'> ReIFE: Re-evaluating Instruction-Following Evaluation"
     authors: "Yixin Liu*, <b>Kejian Shi*</b>, Alexander R. Fabbri, Yilun Zhao, Peifeng Wang, Chien-Sheng Wu, Shafiq Joty, Arman Cohan"
-    venue: "IN SUBMISSION"
+    venue: "In Submission"
     paper_pdf: https://arxiv.org/abs/2410.07069
     code: https://github.com/yale-nlp/ReIFE
-    extra_venue: "HuggingFace: https://huggingface.co/datasets/yale-nlp/ReIFE"
+    HF: https://huggingface.co/datasets/yale-nlp/ReIFE
     selected: y
 
   - title: "<img src='images/phf_fig1.png' style='width: 90px; height: 40px; margin-right: -1px;'> Pretraining Language Models with Human Preferences"
