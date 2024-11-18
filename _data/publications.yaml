@@ -1,5 +1,5 @@
 papers:
-  - title: "<img src='images/sciriff_fig1.png' style='width: 95px; height: 60px; margin-right: -1px;'> SciRIFF: A Resource to Enhance Language Model Instruction-Following over Scientific Literature"
+  - title: "<img src='images/sciriff_fig1.png' style='width: 90px; height: 50px; margin-right: -1px;'> SciRIFF: A Resource to Enhance Language Model Instruction-Following over Scientific Literature"
     authors: "David Wadden*, <b>Kejian Shi*</b>, Jacob Morrison, Aakanksha Naik, Shruti Singh, Nitzan Barzilay, Kyle Lo, Tom Hope, Luca Soldaini, Shannon Zejiang Shen, Doug Downey, Hannaneh Hajishirzi, Arman Cohan"
     venue: "Neurips 2024 Workshop FM4Science (In Re-submission)"
     paper_pdf: https://arxiv.org/abs/2410.07069
