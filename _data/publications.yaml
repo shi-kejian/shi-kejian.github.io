@@ -1,0 +1,23 @@
+papers:
+  - title: "<img src='images/sciriff_fig1.png' style='width: 90px; height: 90px; margin-right: -1px;'> SciRIFF: A Resource to Enhance Language Model Instruction-Following over Scientific Literature"
+    authors: "David Wadden*, <b>Kejian Shi*</b>, Jacob Morrison, Aakanksha Naik, Shruti Singh, Nitzan Barzilay, Kyle Lo, Tom Hope, Luca Soldaini, Shannon Zejiang Shen, Doug Downey, Hannaneh Hajishirzi, Arman Cohan"
+    venue: "Neurips 2024 Workshop FM4Science (In Re-submission)"
+    paper_pdf: https://arxiv.org/abs/2410.07069
+    code: https://github.com/allenai/sciriff
+    extra_venue: "HuggingFace: https://huggingface.co/collections/allenai/sciriff-665f61ba7315e1d202e5f6bf"
+    selected: y
+
+  - title: "<img src='images/reife_fig1.jpg' style='width: 90px; height: 90px; margin-right: -1px;'> ReIFE: Re-evaluating Instruction-Following Evaluation"
+    authors: "Yixin Liu*, <b>Kejian Shi*</b>, Alexander R. Fabbri, Yilun Zhao, Peifeng Wang, Chien-Sheng Wu, Shafiq Joty, Arman Cohan"
+    venue: "IN SUBMISSION"
+    paper_pdf: https://arxiv.org/abs/2410.07069
+    code: https://github.com/yale-nlp/ReIFE
+    extra_venue: "HuggingFace: https://huggingface.co/datasets/yale-nlp/ReIFE"
+    selected: y
+
+  - title: "<img src='images/phf_fig1.png' style='width: 90px; height: 90px; margin-right: -1px;'> Pretraining Language Models with Human Preferences"
+    authors: "Tomasz Korbak, <b>Kejian Shi</b>, Angelica Chen, Rasika Bhalerao, Christopher L. Buckley, Jason Phang, Samuel R. Bowman, Ethan Perez"
+    venue: "ICML'23: Proceedings of the 40th International Conference on Machine Learning"
+    paper_pdf: https://arxiv.org/abs/2302.08582
+    selected: y
+    award: "Oral Presentation"

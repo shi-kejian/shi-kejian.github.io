@@ -1,0 +1,137 @@
+---
+layout: default
+title: Home
+---
+<!-- ========== BIO ========== -->
+<div class="docs-section" id="bio">
+  <h4>Bio</h4>
+  <p>
+    I am an M.S. student in Computer Science at Yale University, advised by <a href="https://armancohan.com/" target="_blank">Arman Cohan</a> at the YaleNLP group. Previously, I completed my undergraduate studies at NYU, where I had the pleasure of collaborating with <a href="https://sleepinyourhat.github.io/" target="_blank">Sam Bowman</a>'s ARG group (a collaboration that continues today). My research centers around pretraining, evaluation, and AI safety.
+  </p>
+
+  <p>
+    <b>My research focuses on developing safety-critical, robust and reliable frameworks for evaluation.</b> I am driven by fundamental questions in AI assessment: How can we reliably compare language models' generative capabilities while ensuring robust evaluation? How do we verify that performance metrics translate to application safety, particularly when societal implications are at stake? How can we evaluate emerging LLM capabilities when ground truth may be uncertain?
+  </p>
+
+  <p>
+    Recently, I have been working on improving instruction-following evaluation and scalable oversight evaluation. On a personal development note, I am working on maintaining focused attention and managing dopamine responses - a continuous journey of growth.
+  </p>
+
+  <p style="text-align: right; color: rgba(25, 113, 194, 0.6); font-style: italic; margin-top: 20px;">
+    Carpe Diem
+  </p>
+</div>
+<div class="docs-section" id="news">
+  <h4>Recent News</h4>
+  <div class="news-container">
+    {% assign current_talks = site.data.news.news | where: "category", "current" %}
+    {% for talk in current_talks %}
+      <div class="news-item">
+        <b>{{ talk.time }}</b>: {{ talk.events }}</br>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+
+<div class="docs-section" id="publications">
+  <h4>Publications</h4>
+
+  <p>Please find all publications on my <a href="https://scholar.google.com/citations?user=V-dlwF4AAAAJ&hl=en" target="_blank">Google Scholar</a>.  </p>
+  <p>* denotes equal contributions.</p>
+
+  <ul class="tab-nav">
+    <li><div class="button active" data-ref="#papers-sel">Selected and Recent Papers</div></li>
+    <li><div class="button" data-ref="#papers-all">All</div></li>    
+  </ul>
+
+  <div class="tab-content">
+
+    <div class="tab-pane active" id="papers-sel">
+      {% assign papers = site.data.publications.papers | where: "selected", "y" %}
+      {% for paper in papers %}
+        <div class="paper">
+          <p class="title"><b>{{ paper.title }}</b>
+            {% if paper.paper_pdf %}
+              <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">PDF</a>
+            {% endif %}
+            {% if paper.pap %}
+              <a class="button" href="{{ paper.pap }}" target="_blank">Preregistration</a>
+            {% endif %}
+            {% if paper.slides %}
+              <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
+            {% endif %}
+            {% if paper.poster %}
+              <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
+            {% endif %}
+            {% if paper.video %}
+              <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
+            {% endif %}
+            {% if paper.code %}
+              <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+            {% endif %}
+          </p>
+          <p>{{ paper.authors }}</p>
+          <p><i>{{ paper.venue }}</i></p>
+          <p><i>{{ paper.extra_venue }}</i></p>
+          {% if paper.award %}
+            <p><b style="color:#4682b4">{{ paper.award }}</b></p>
+          {% endif %}
+          {% if paper.news %}
+            <p><b style="color:#4682b4">{{ paper.news }}</b></p>
+          {% endif %}
+           <div class="paper-buttons">
+
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+
+    <!-- All PAPERS -->
+    <div class="tab-pane" id="papers-all">
+      {% assign papers = site.data.publications.papers %}
+      {% for paper in papers %}
+        <div class="paper">
+          <p class="title"><b>{{ paper.title }}</b>
+            {% if paper.paper_pdf %}
+              <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">PDF</a>
+            {% endif %}
+            {% if paper.pap %}
+              <a class="button" href="{{ paper.pap }}" target="_blank">Preregistration</a>
+            {% endif %}
+            {% if paper.slides %}
+              <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
+            {% endif %}
+            {% if paper.poster %}
+              <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
+            {% endif %}
+            {% if paper.video %}
+              <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
+            {% endif %}
+            {% if paper.code %}
+              <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+            {% endif %}
+          </p>
+          <p>{{ paper.authors }}</p>
+          <p><i>{{ paper.venue }}</i></p>
+          <p><i>{{ paper.extra_venue }}</i></p>
+          {% if paper.award %}
+          <p><b style="color:#4682b4">{{ paper.award }}</b></p>
+          {% endif %}
+          {% if paper.news %}
+            <p><b style="color:#4682b4">{{ paper.news }}</b></p>
+          {% endif %}
+          <div class="paper-buttons">
+
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+    
+<div class="docs-section" id="ack">
+  <h4>Acknowledgement</h4>
+  <p>
+    This website uses the website design and template by <a href="https://github.com/msaveski/www_personal">Martin Saveski</a>
+  </p>
+
+</div>
