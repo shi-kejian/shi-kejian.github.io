@@ -3,12 +3,14 @@ papers:
     authors: "<b>Kejian Shi*</b>, <b>David Wadden*</b>, Jacob Morrison, Aakanksha Naik, Shruti Singh, Nitzan Barzilay, Kyle Lo, Tom Hope, Luca Soldaini, Shannon Zejiang Shen, Doug Downey, Hannaneh Hajishirzi, Arman Cohan"
     venue: "In Submission to ACL 2025, In Neurips 2024 Workshop FM4Science"
     paper_pdf: https://arxiv.org/abs/2406.07835
+    code: https://github.com/shi-kejian/sciriff-dev
+    code: https://github.com/allenai/sciriff
     hf: https://huggingface.co/collections/allenai/sciriff-665f61ba7315e1d202e5f6bf     
     selected: y
 
   - title: "<img src='images/reife_fig1.jpg' style='width: 100px; height: 47px; margin-right: -1px;'> ReIFE: Re-evaluating Instruction-Following Evaluation"
     authors: "<b>Yixin Liu*</b>, <b>Kejian Shi*</b>, Alexander R. Fabbri, Yilun Zhao, Peifeng Wang, Chien-Sheng Wu, Shafiq Joty, Arman Cohan"
-    venue: "In Submission"
+    venue: "Commited to NAACL 2025"
     paper_pdf: https://arxiv.org/abs/2410.07069
     code: https://github.com/yale-nlp/ReIFE
     hf: https://huggingface.co/datasets/yale-nlp/ReIFE
