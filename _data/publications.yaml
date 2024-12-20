@@ -7,7 +7,7 @@ papers:
     selected: y
 
   - title: "<img src='images/reife_fig1.jpg' style='width: 100px; height: 47px; margin-right: -1px;'> ReIFE: Re-evaluating Instruction-Following Evaluation"
-    authors: "<b>Yixin Liu*<b>, <b>Kejian Shi*</b>, Alexander R. Fabbri, Yilun Zhao, Peifeng Wang, Chien-Sheng Wu, Shafiq Joty, Arman Cohan"
+    authors: "<b>Yixin Liu*</b>, <b>Kejian Shi*</b>, Alexander R. Fabbri, Yilun Zhao, Peifeng Wang, Chien-Sheng Wu, Shafiq Joty, Arman Cohan"
     venue: "In Submission"
     paper_pdf: https://arxiv.org/abs/2410.07069
     code: https://github.com/yale-nlp/ReIFE
