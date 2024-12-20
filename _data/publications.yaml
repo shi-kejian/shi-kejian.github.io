@@ -3,8 +3,8 @@ papers:
     authors: "<b>Kejian Shi*</b>, <b>David Wadden*</b>, Jacob Morrison, Aakanksha Naik, Shruti Singh, Nitzan Barzilay, Kyle Lo, Tom Hope, Luca Soldaini, Shannon Zejiang Shen, Doug Downey, Hannaneh Hajishirzi, Arman Cohan"
     venue: "In Submission to ACL 2025, In Neurips 2024 Workshop FM4Science"
     paper_pdf: https://arxiv.org/abs/2406.07835
-    code: https://github.com/shi-kejian/sciriff-dev
     code: https://github.com/allenai/sciriff
+    code: https://github.com/shi-kejian/sciriff-dev
     hf: https://huggingface.co/collections/allenai/sciriff-665f61ba7315e1d202e5f6bf     
     selected: y
 
