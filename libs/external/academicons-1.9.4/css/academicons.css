@@ -124,9 +124,11 @@
 }
 .ai-cv:before {
   content: "\e9a5";
+  font-size: 120%;
 }
 .ai-cv-square:before {
   content: "\e90a";
+  font-size: 120%;
 }
 .ai-datacite:before {
   content: "\e91c";
