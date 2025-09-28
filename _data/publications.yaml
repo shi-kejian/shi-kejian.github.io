@@ -1,7 +1,7 @@
 papers:
-  - title: "<img src='images/refeval_fig1.png' style='width: 75px; height: 60px; margin-right: -1px;'> References Improve LLMs-as-Judges for LLM Alignment"
-    authors: "<b>Kejian Shi</b>, Yixin Liu, Peifeng Wang, Alexander Fabbri, Shafiq Joty, Arman Cohan"
-    venue: "To appear in EMNLP 2025"
+  - title: "<img src='images/refeval_fig1.png' style='width: 100px; height: 50px; margin-right: -1px;'> References Improve LLMs-as-Judges for LLM Alignment"
+    authors: "<b>Kejian Shi</b>, <b>Yixin Liu</b>, Peifeng Wang, Alexander Fabbri, Shafiq Joty, Arman Cohan"
+    venue: "Submitted to ICLR 2026"
     paper_pdf: 
     code:
     code:
