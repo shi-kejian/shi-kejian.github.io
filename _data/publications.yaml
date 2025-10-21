@@ -1,6 +1,6 @@
 papers:
   - title: "<img src='images/refeval_fig1.png' style='width: 100px; height: 38px; margin-right: -1px;'> Improving LLM Alignment with References"
-    authors: "<b>Kejian Shi</b>, <b>Yixin Liu</b>, Peifeng Wang, Alexander Fabbri, Shafiq Joty, Arman Cohan"
+    authors: "<b>Kejian Shi*</b>, <b>Yixin Liu*</b>, Peifeng Wang, Alexander Fabbri, Shafiq Joty, Arman Cohan"
     venue: "Submitted to ICLR 2026"
     paper_pdf: 
     code:
