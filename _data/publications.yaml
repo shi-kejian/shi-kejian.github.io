@@ -5,12 +5,12 @@ papers:
     paper_pdf: 
     code:
     code:
-    hf:   
+    hf: 
     selected: y
 
   - title: "<img src='images/sciriff_fig1.png' style='width: 100px; height: 45px; margin-right: -1px;'> SciRIFF: A Resource to Enhance Language Model Instruction-Following over Scientific Literature"
     authors: "<b>Kejian Shi*</b>, <b>David Wadden*</b>, Jacob Morrison, Aakanksha Naik, Shruti Singh, Nitzan Barzilay, Kyle Lo, Tom Hope, Luca Soldaini, Shannon Zejiang Shen, Doug Downey, Hannaneh Hajishirzi, Arman Cohan"
-    venue: "In Submission to ACL 2025, In Neurips 2024 Workshop FM4Science"
+    venue: "EMNLP 2025 Main, NIPS 2024 Workshop FM4Science"
     paper_pdf: https://arxiv.org/abs/2406.07835
     code: https://github.com/allenai/sciriff
     code: https://github.com/shi-kejian/sciriff-dev
@@ -19,7 +19,7 @@ papers:
 
   - title: "<img src='images/reife_fig1.jpg' style='width: 100px; height: 47px; margin-right: -1px;'> ReIFE: Re-evaluating Instruction-Following Evaluation"
     authors: "<b>Yixin Liu*</b>, <b>Kejian Shi*</b>, Alexander R. Fabbri, Yilun Zhao, Peifeng Wang, Chien-Sheng Wu, Shafiq Joty, Arman Cohan"
-    venue: "In NAACL 2025 Main Conference"
+    venue: "NAACL 2025 Main"
     paper_pdf: https://arxiv.org/abs/2410.07069
     code: https://github.com/yale-nlp/ReIFE
     hf: https://huggingface.co/datasets/yale-nlp/ReIFE
