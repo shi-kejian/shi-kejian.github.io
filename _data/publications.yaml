@@ -8,7 +8,7 @@ papers:
     hf: 
     selected: y
 
-  - title: "<img src='images/refeval_fig1.png' style='width: 100px; height: 38px; margin-right: -1px;'> Improving LLM Alignment with References"
+  - title: "<img src='images/refeval_fig1.png' style='width: 100px; height: 38px; margin-right: -1px;'> Reference-Guided Self-Distillation: On-Policy Alignment for Non-Verifiable Domains"
     authors: "<b>Kejian Shi*</b>, <b>Yixin Liu*</b>, Peifeng Wang, Alexander Fabbri, Shafiq Joty, Arman Cohan"
     venue: "ICLR 2026 Main"
     paper_pdf: 
