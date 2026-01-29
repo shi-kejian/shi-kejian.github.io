@@ -1,7 +1,7 @@
 papers:
   - title: "Sycophancy Towards Safety Researchers Drives Alignment Faking"
     authors: 
-    venue: 
+    venue: In submission
     paper_pdf: 
     code:
     code:
@@ -10,7 +10,7 @@ papers:
 
   - title: "<img src='images/refeval_fig1.png' style='width: 100px; height: 38px; margin-right: -1px;'> Improving LLM Alignment with References"
     authors: "<b>Kejian Shi*</b>, <b>Yixin Liu*</b>, Peifeng Wang, Alexander Fabbri, Shafiq Joty, Arman Cohan"
-    venue: "Accepted to ICLR 2026"
+    venue: "ICLR 2026 Main"
     paper_pdf: 
     code:
     code:
